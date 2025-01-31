@@ -225,3 +225,53 @@ header img {
 .cta-button:hover {
   background: #4c9463;
 }
+
+/* About me Section */
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px; /* More spacing between image & text */
+  padding: 50px 20px 100px 0px;
+  max-width: 1200px;
+  margin: 100px auto 0 auto;
+}
+
+.about-image img {
+  width: 500px; /* Increased image size */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  max-width: 650px; /* Adjusting width to maintain proportions */
+  text-align: justify; /* Justifies text */
+}
+
+.about-text h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 900px) {
+  .about-me {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .about-image img {
+      width: 80%;
+  }
+
+  .about-text {
+      text-align: center;
+  }
+}
