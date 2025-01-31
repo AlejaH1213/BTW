@@ -147,6 +147,81 @@ header img {
   .dropdown-menu.active {
     display: block;
   }
-  
-  
+}
+/* hero */
+.hero {
+  position: relative;
+  height: 50vh;
+  background: url('../images/hero-cover.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-top: 70px;  
+  width: 100%;
+}
+
+
+.hero-overlay {
+  background: rbga(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  justify-content: center;
+  margin-bottom: -100px;
+}
+
+/* SERVICES BOX */
+.services-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -90px; /* Moves it upwards */
+  position: relative;
+  z-index: 2;
+}
+
+.services-box {
+  background: #FFFFFC;
+  padding: 50px;
+  width: 60%;
+  max-width: 800px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-box h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.services-box p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* BUTTON */
+.cta-button {
+  display: inline-block;
+  background: #5ca678;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.cta-button i {
+  margin-right: 8px;
+}
+
+.cta-button:hover {
+  background: #4c9463;
 }
